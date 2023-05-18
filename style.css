@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.signature_container {
+  margin: 30px auto;
+  padding: 16px;
+  width: 45%;
+  height: 40vh;
+  background-color: rgb(253, 252, 251);
+  color: rgb(124, 20, 20);
+  display: flex;
+  border-bottom: 8px solid rgb(103, 25, 25);
+  border-right: 16px solid rgb(103, 25, 25);
+  border-radius: 24px 0;
+}
+.media_container {
+  width: 40%;
+  border-right: 2px solid rgb(103, 25, 25);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.media_container_content {
+  border-radius: 50%;
+  width: 200px;
+}
+.media_container img {
+  width: 200px;
+}
+.signature_details_content {
+  display: flex;
+  gap: 8px;
+}
+.signature_details_content img {
+  width: 30px;
+}
+.signature_details {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.signature_details_content_text {
+  margin-top: 4px;
+}
+img {
+  padding: 0;
+  margin: 0;
+}
